@@ -39,7 +39,7 @@ def last_replace(s, old, new):
 
 
 def text_to_owo(text):
-    smileys = [';;w;;', '^w^', '>w<', 'UwU', '(・`ω\´・)', '(´・ω・\`)']
+    smileys = [';;w;;', 'ᵘ ꒳ ᵘ', '^w^', '>w<', 'UwU', '(・`ω\´・)', '(´・ω・\`)']
 
     text = text.replace('L', 'W').replace('l', 'w')
     text = text.replace('R', 'W').replace('r', 'w')
