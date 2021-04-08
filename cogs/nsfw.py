@@ -16,7 +16,7 @@ class NSFW(commands.Cog):
             await ctx.send("%s friss das: %s " % (member.name, insult))
         else:
             print("2")
-            await ctx.send("Selfdiss: %s " % (ctx.message.author.name, insult))
+            await ctx.send("%s Selfdiss: %s " % (ctx.message.author.name, insult))
 
 
 def setup(bot):

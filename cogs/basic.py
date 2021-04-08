@@ -27,10 +27,10 @@ class Basic(commands.Cog):
     async def poke(self, ctx, member: discord.Member = None):
 
         if member is not None:
-            message = "%s poked you!!!!" % ctx.author.name
+            message = "%s Moiiiiin Meisterrr!!!" % ctx.author.name
             await notify_user(member, message)
         else:
-            await ctx.send("Please use @mention to poke someone.")
+            await ctx.send("Digga was kannst du eigentlich ! (@mention]")
 
 
 def setup(bot):
