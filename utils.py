@@ -17,9 +17,6 @@ async def notify_user(member, message):
 
 
 def mods_or_owner():
-    """
-    Check that the user has the correct role to execute a command
-    """
     def predicate(ctx):
         return commands.check_any(commands.is_owner(), commands.has_role(MODERATOR_ROLE_NAME))
     return commands.check(predicate)
@@ -42,7 +39,6 @@ def last_replace(s, old, new):
 
 
 def text_to_owo(text):
-    """ Converts your text to OwO """
     smileys = [';;w;;', '^w^', '>w<', 'UwU', '(・`ω\´・)', '(´・ω・\`)']
 
     text = text.replace('L', 'W').replace('l', 'w')
