@@ -8,5 +8,3 @@ Documentation:
 
 ## Wichtige Informationen
 
-- Derzeit ist nicht alles voll funktionsfähig
-- kommentare für erklärungen sind derzeit auch noch nicht vorhanden 
